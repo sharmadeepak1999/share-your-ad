@@ -1,0 +1,90 @@
+#top-section {
+	background-color: #c8e8ed;
+	position: absolute;
+	overflow-x: hidden;
+}
+
+.nav-custom-links li{
+	padding: 0.8rem;
+}
+
+.nova-font {
+	font-family: 'Nova Round', cursive;
+	font-size: 1.15rem;
+	font-weight: 500;
+}
+
+.sacramento-font {
+	font-family: 'Sacramento', cursive;
+}
+
+.acme-font {
+	font-family: 'Acme', sans-serif;
+}
+
+.navbar-opacity {
+	background-color: rgba(248, 249, 250, 0.95) !important;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-toggler-icon{
+	color: transparent !imortant;
+}
+
+.nav-link.color-blue {
+	color: #309286 !important;
+}
+
+.nav-link.color-blue:hover {
+	color: #014441 !important;
+}
+
+.logo {
+	border-radius: 100%;
+	width: 4.8rem;
+}
+
+.favicon {
+	border-radius: 100%;
+}
+
+.title {
+	display: block;
+	padding: 12rem 0 1rem 0;
+	text-align: center;
+	color: #309286;
+}
+
+.title .title-intro {
+	font-size: 6rem;
+}
+.title .title-skill {
+	font-size: 1.2rem;
+	margin-top: 0.7rem;
+}
+
+.cloud-image-1, .cloud-image-2 {
+	position: absolute;
+	transition: all 1s ease-in-out;
+}
+
+.grass-image{
+	width: 100%;
+	padding: 0;
+	z-index: 100;
+}
+
+.cloud-image-1 {
+	width: 150px;
+	top: 200px;
+	left: 100px;
+}
+
+.cloud-image-2 {
+	width: 170px;
+	top: 130px;
+	right: 120px;
+}

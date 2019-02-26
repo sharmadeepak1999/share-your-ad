@@ -1,0 +1,55 @@
+@media (max-width: 1080px) {
+
+	.cloud-image-1 {
+		width: 150px;
+		top: 200px;
+		left: 10px;
+	}
+	.cloud-image-2 {
+		width: 170px;
+		top: 130px;
+		right: 10px;
+	}
+}
+
+@media (max-width: 961px) {
+
+	.cloud-image-1 {
+		width: 150px;
+		top: 250px;
+		left: -80px;
+	}
+	.cloud-image-2 {
+		width: 170px;
+		top: 100px;
+		right: -80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.title .title-intro {
+		font-size: 5rem;
+	}
+	.title .title-skill {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 555px) {
+	.title .title-intro {
+		font-size: 3rem;
+	}
+	.title .title-skill {
+		font-size: 0.8rem;
+	}
+	.cloud-image-1 {
+		width: 150px;
+		top: 250px;
+		left: -100px;
+	}
+	.cloud-image-2 {
+		width: 170px;
+		top: 100px;
+		right: -100px;
+	}
+}
