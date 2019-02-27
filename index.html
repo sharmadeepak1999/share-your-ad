@@ -15,10 +15,12 @@
     <link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
     <link href="/font-awesome/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
     <link rel="stylesheet" href="/css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="/css/hover.css">
 
     <!-- Fix Internet Explorer ______________________________________-->
 
@@ -31,7 +33,7 @@
     <section id="top-section">
       <header class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-light" id="navbar">
         <div class="container">
-          <a class="navbar-brand"><img src="/images/logo.png" class="logo" alt="LOGO"></a>
+          <a href="#" class="navbar-brand"><img src="/images/logo.png" class="logo hvr-icon hvr-grow" alt="LOGO"></a>
 
           <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="     navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon fa fa-bars text-primary"></span>
@@ -40,31 +42,76 @@
           <div class="collapse navbar-collapse nova-font" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto nav-custom-links text-center">
               <li class="nav-item">
-                <a class="nav-link color-blue" href="">About</a>
+                <a class="nav-link color-blue" href="#about-section">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link color-blue" href="">Skills</a>
+                <a class="nav-link color-blue" href="#skill-section">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link color-blue" href="">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link color-blue" href="">Contact</a>
+                <a class="nav-link color-blue" href="#contact-section">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </header>
-      <img src="/images/cloud-1.png" class="cloud-image-1">
-      <img src="/images/cloud-2.png" class="cloud-image-2">
-      <div class="main-content">
+      <img src="/images/cloud-1.png" class="cloud-image-1 hvr-bounce-in">
+      <img src="/images/cloud-2.png" class="cloud-image-2 hvr-bounce-in">
+      <img src="/images/bird-1.png" class="bird-image hvr-bounce-out">
+      <div class="top-section-content">
       <div class="title">
         <h1 class="title-intro sacramento-font">I'm Deepak.</h1>
         <p class="title-skill acme-font">a web designer and developer.<i class="fa fa-home"></i></p>
       </div>
       <img src="/images/grass-image.png" class="grass-image">
-
     </section>
+
+    <section id="about-section">
+      <div class="about-section-content">
+        <img src="/images/about-me.gif" class="about-section-image">
+        <h1 class="about-section-hi acme-font color-blue">Hi.</h1>
+        <p class="about-section-desc color-grey rubik-font">I am Deepak Sharma, a web designer and developer based in Jharkhand, India. I have a great passion for web designing and web application development.</p>
+      </div>
+    </section>  
+    <hr>
+    <section id="skill-section">
+      <div class="skill-section-content">
+          <h2 class="skill-section-head rubik-font color-blue">What I can do.</h2>
+          <div class="skill-design-content row">
+            <div class="col-md-4">
+              <img src="/images/skill-design.png" class="skill-design-image hvr-grow-shadow">
+            </div>
+            <div class="col-md-8 text-container-design">
+              <h1 class="skill-design-head nova-font color-blue">Website Designing</h1>
+              <p class="skill-design-desc rubik-font color-grey">I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
+            </div>
+          </div>
+          <div class="skill-develop-content row">
+            <div class="col-md-4">
+              <img src="/images/skill-develop.png" class="skill-develop-image hvr-grow-shadow">
+            </div>
+            <div class="col-md-8 text-container-develop">
+              <h1 class="skill-develop-head nova-font color-blue">Website Development</h1>
+              <p class="skill-develop-desc rubik-font color-grey">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <hr>
+    <section id="contact-section">
+      <div class="contact-section-content">
+        <h1 class="color-blue rubik-font">I am available for help.</h1>
+        <h3 class="color-blue nova-font">Contact me for freelance work.</h3>
+        <p class="color-grey rubik-font">If there is a project that you want to get started, think you need my help with something then don't hesitate to get in touch with me.</p>
+        <a href="mailto:sharmadeepak1999@gmail.com" class="btn btn-lg btn-blue hvr-grow-shadow"><img src="/images/message.png" class="message-icon">Message me</a>
+      </div>
+    </section>
+
+    <footer id="footer-section">
+      <div class="footer-content">
+        <p class="color-blue rubik-font email">Email: sharmadeepak1999@gmail.com</p>
+        <p class="color-grey rubik-font rights">&copy; 2019 All rights reserved.</p>
+      </div>
+    </footer>
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/customjs.js"></script>
