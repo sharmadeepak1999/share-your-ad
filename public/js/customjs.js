@@ -1,7 +1,6 @@
 $(document).ready( () => {
 	let lastScrollPos = 0;
-	$(document).scrollTop(0);
-	$(document).on("scroll touchstart", () => {
+	$(document).on("scroll", () => {
 
 		if($(document).scrollTop() === 0 && !$(".navbar-collapse").hasClass("show"))
 		{
@@ -23,7 +22,12 @@ $(document).ready( () => {
 		}
 	});
 
-	$(".navbar-toggler").on("click touch", () => {
+	$(".nav-link").on("click", (e) => {
+		$(".nav-link").removeClass("select-color-blue");
+		$(e.target).addClass("select-color-blue");
+	});
+
+	$(".navbar-toggler").on("click", () => {
 		$("#navbar").addClass("navbar-opacity");
 		if($(document).scrollTop() === 0 && $(".navbar-collapse").hasClass("show"))
 		{

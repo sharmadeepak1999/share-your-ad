@@ -1,7 +1,39 @@
+html {
+	scroll-behavior: smooth
+}
+
+hr {
+	border-top: 3px dashed rgba(0, 0, 0, 0.1);
+	width: 100px;
+}
+
 #top-section {
 	background-color: #c8e8ed;
-	position: absolute;
+	position: relative;
 	overflow-x: hidden;
+}
+
+#about-section {
+	margin: 0 auto;
+	max-width: 490px;
+	padding: 5% 0;
+}
+
+#skill-section {
+	margin: auto;
+	width: 70%;
+	padding: 5%;
+}
+
+#contact-section {
+	margin: auto;
+	max-width: 700px;
+	padding: 5%;
+}
+
+#footer-section {
+	background-color: #c8e8ed;
+	padding: 2% 2% 1% 2%;
 }
 
 .nav-custom-links li{
@@ -22,6 +54,10 @@
 	font-family: 'Acme', sans-serif;
 }
 
+.rubik-font {
+	font-family: 'Rubik', sans-serif;
+}
+
 .navbar-opacity {
 	background-color: rgba(248, 249, 250, 0.95) !important;
 }
@@ -34,8 +70,16 @@
 	color: transparent !imortant;
 }
 
-.nav-link.color-blue {
+.color-blue {
 	color: #309286 !important;
+}
+
+.color-grey {
+	color: #808080;
+}
+
+.select-color-blue {
+	color: #014441 !important;
 }
 
 .nav-link.color-blue:hover {
@@ -44,7 +88,7 @@
 
 .logo {
 	border-radius: 100%;
-	width: 4.8rem;
+	width: 4.5rem;
 }
 
 .favicon {
@@ -53,20 +97,22 @@
 
 .title {
 	display: block;
-	padding: 12rem 0 1rem 0;
+	padding: 11rem 0 1rem 0;
 	text-align: center;
 	color: #309286;
 }
 
 .title .title-intro {
 	font-size: 6rem;
+	transition: all 1s ease-in-out;
 }
 .title .title-skill {
 	font-size: 1.2rem;
-	margin-top: 0.7rem;
+	margin-top: 0.5rem;
+	transition: all 1s ease-in-out;
 }
 
-.cloud-image-1, .cloud-image-2 {
+.cloud-image-1, .cloud-image-2, .bird-image {
 	position: absolute;
 	transition: all 1s ease-in-out;
 }
@@ -87,4 +133,125 @@
 	width: 170px;
 	top: 130px;
 	right: 120px;
+}
+
+.bird-image {
+	width: 50px;
+	top: 100px;
+	left: 300px;
+}
+
+.about-section-content {
+	text-align: center;
+}
+
+.about-section-image {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.about-section-hi {
+	margin: 20px;
+	font-size: 1.5rem;
+}
+
+.about-section-desc {
+	line-height: 1.4rem;
+}
+
+.skill-section-content {
+	text-align: center;
+}
+
+.skill-section-head {
+	font-size: 3rem;
+}
+
+.skill-design-content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.skill-design-head {
+	font-size: 1.5rem;	
+	text-align: left;
+}
+
+.skill-design-desc {
+	font-size: 1rem;
+	text-align: left;
+}
+
+.skill-design-image {
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+
+.text-container-design {
+	padding-left: 50px;
+}
+
+.skill-develop-content {
+	margin-top: 50px;
+}
+
+.skill-develop-head {
+	font-size: 1.5rem;	
+	text-align: left;
+}
+
+.skill-develop-desc {
+	font-size: 1rem;
+	text-align: left;
+}
+
+.skill-develop-image {
+	width: 150px;
+	margin-bottom: 20px;
+}
+
+.text-container-develop {
+	padding-left: 50px;
+  	-ms-flex-order: -1;
+  	order: -1;
+}
+
+.contact-section-content {
+	text-align: center;
+}
+
+.contact-section-content h1 {
+	font-size: 2.5rem;
+	margin-bottom: 30px;
+}
+
+.contact-section-content h3 {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+
+
+.contact-section-content p {
+	margin-bottom: 30px;
+}
+
+.btn-blue {
+	color: white !important;
+	background-color: #309286;
+}
+
+.btn.btn-blue:hover {
+	color: white !important;
+}
+
+.message-icon {
+	width: 30px;
+	margin: 0 5px 2px 0;
+}
+
+.footer-content {
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
 }
