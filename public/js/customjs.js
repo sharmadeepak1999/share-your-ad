@@ -1,7 +1,7 @@
 $(document).ready( () => {
 	let lastScrollPos = 0;
 	$(document).scrollTop(0);
-	$(document).on("scroll", () => {
+	$(document).on("scroll touchstart", () => {
 
 		if($(document).scrollTop() === 0 && !$(".navbar-collapse").hasClass("show"))
 		{
@@ -23,7 +23,7 @@ $(document).ready( () => {
 		}
 	});
 
-	$(".navbar-toggler").on("click", () => {
+	$(".navbar-toggler").on("click touch", () => {
 		$("#navbar").addClass("navbar-opacity");
 		if($(document).scrollTop() === 0 && $(".navbar-collapse").hasClass("show"))
 		{
